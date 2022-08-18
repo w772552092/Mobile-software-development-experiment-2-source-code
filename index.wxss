@@ -1,0 +1,33 @@
+.container{
+  height: 100vh; /*高100*/
+  display: flex; /*垂直布局*/
+  flex-direction: column; /*垂直方向*/
+  align-items: center; /*居中布局*/
+  justify-content: space-around;
+}
+
+.detail{
+  width: 100%;
+  display: flex; /*垂直布局*/
+  flex-direction: column;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0; /*设置外边距*/
+}
+
+.box{
+  width: 33.3%; /*每个占三分之一*/
+  text-align: center; /*文字布局在中央部分*/
+}
+
+text{
+  font-size: 80rtx;
+  color: #3c5f81;
+}
+
+image{
+  width: 220rpx;
+}
